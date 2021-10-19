@@ -1,7 +1,7 @@
 module Find where
 
 data Find =
-  File String String
+  File String String Bool
   deriving (Show, Eq)
 
 searchFile :: String -> String -> [(Int, String)]
