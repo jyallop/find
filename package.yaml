@@ -36,6 +36,8 @@ executables:
     dependencies:
     - find
     - argparser
+    - ansi-terminal
+    - split
 
 tests:
   find-test:
@@ -47,3 +49,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - find
+    - hspec
