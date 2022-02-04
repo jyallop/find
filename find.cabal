@@ -39,7 +39,7 @@ library
     , split
   default-language: Haskell2010
 
-executable find-exe
+executable find
   main-is: Main.hs
   other-modules:
       Paths_find

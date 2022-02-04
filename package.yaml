@@ -30,7 +30,7 @@ library:
   - argparser
     
 executables:
-  find-exe:
+  find:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
