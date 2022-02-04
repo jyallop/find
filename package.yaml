@@ -24,6 +24,9 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+  - split
+  - ansi-terminal
 
 executables:
   find-exe:
@@ -36,8 +39,9 @@ executables:
     dependencies:
     - find
     - argparser
-    - ansi-terminal
+    - directory
     - split
+    - ansi-terminal
 
 tests:
   find-test:
