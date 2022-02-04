@@ -27,7 +27,8 @@ library:
   dependencies:
   - split
   - ansi-terminal
-
+  - argparser
+    
 executables:
   find-exe:
     main:                Main.hs
@@ -40,9 +41,7 @@ executables:
     - find
     - argparser
     - directory
-    - split
-    - ansi-terminal
-
+    
 tests:
   find-test:
     main:                Spec.hs
